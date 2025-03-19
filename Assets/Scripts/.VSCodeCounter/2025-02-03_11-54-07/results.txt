@@ -1,0 +1,86 @@
+Date : 2025-02-03 11:54:07
+Directory : d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts
+Total : 56 files,  5049 codes, 115 comments, 827 blanks, all 5991 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |         56 |      5,049 |        115 |        827 |      5,991 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |         56 |      5,049 |        115 |        827 |      5,991 |
+| . (Files)                                                                                          |         20 |      2,746 |         55 |        426 |      3,227 |
+| Pacts                                                                                              |         13 |        359 |          4 |         75 |        438 |
+| ScriptableObjects                                                                                  |          6 |         85 |          0 |         14 |         99 |
+| Structs                                                                                            |          1 |         46 |          0 |          7 |         53 |
+| Trinkets                                                                                           |          8 |        281 |          2 |         57 |        340 |
+| UI                                                                                                 |          8 |      1,532 |         54 |        248 |      1,834 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                           | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\AbilityUpgrade.cs                     | C#       |         82 |          3 |         11 |         96 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\AudioManager.cs                       | C#       |         99 |          1 |         18 |        118 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\BattleManager.cs                      | C#       |        306 |         15 |         54 |        375 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ChaosBoltAction.cs                    | C#       |        149 |          0 |         23 |        172 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\CharacterBattle.cs                    | C#       |         80 |          2 |         18 |        100 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\EnemyStats.cs                         | C#       |         40 |          0 |          9 |         49 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ExplosiveAction.cs                    | C#       |         40 |          0 |         11 |         51 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\GameManager.cs                        | C#       |        101 |          7 |         17 |        125 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Gear.cs                               | C#       |        106 |          0 |         13 |        119 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\GearGenerator.cs                      | C#       |        451 |         15 |         50 |        516 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\GearInventory.cs                      | C#       |        189 |          4 |         23 |        216 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\IAction.cs                            | C#       |         11 |          0 |          5 |         16 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ItemInventory.cs                      | C#       |        136 |          0 |         22 |        158 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\MetaInventory.cs                      | C#       |         23 |          1 |          7 |         31 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\AgentOfChaosPact.cs             | C#       |         27 |          0 |          5 |         32 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\BlessedPact.cs                  | C#       |         22 |          0 |          5 |         27 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\ConservationPact.cs             | C#       |         29 |          0 |          8 |         37 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\CoveredPact.cs                  | C#       |         25 |          0 |          5 |         30 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\HastedPact.cs                   | C#       |         22 |          0 |          5 |         27 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\InstabilityPact.cs              | C#       |         31 |          1 |          6 |         38 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\IronReflexesPact.cs             | C#       |         22 |          0 |          4 |         26 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\Pact.cs                         | C#       |         27 |          0 |          8 |         35 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\PactInventory.cs                | C#       |         61 |          3 |         10 |         74 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\ShieldedPact.cs                 | C#       |         22 |          0 |          5 |         27 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\StrengthenedPact.cs             | C#       |         22 |          0 |          5 |         27 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\TormentorPact.cs                | C#       |         27 |          0 |          5 |         32 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Pacts\WindDancerPact.cs               | C#       |         22 |          0 |          4 |         26 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\PlayerStats.cs                        | C#       |        305 |          3 |         50 |        358 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\PotionAction.cs                       | C#       |         45 |          0 |         11 |         56 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\RainOfTormentAction.cs                | C#       |        185 |          0 |         25 |        210 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\AbilityUpgradeSO.cs | C#       |         11 |          0 |          2 |         13 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\ExplosiveBagSO.cs   | C#       |         22 |          0 |          3 |         25 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\ExplosiveSO.cs      | C#       |         11 |          0 |          2 |         13 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\PactSO.cs           | C#       |          8 |          0 |          2 |         10 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\PotionBagSO.cs      | C#       |         22 |          0 |          3 |         25 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ScriptableObjects\PotionSO.cs         | C#       |         11 |          0 |          2 |         13 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\ShadowBoltAction.cs                   | C#       |        112 |          0 |         19 |        131 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Stats.cs                              | C#       |        180 |          4 |         36 |        220 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Structs\GearArgs.cs                   | C#       |         46 |          0 |          7 |         53 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Test.cs                               | C#       |        106 |          0 |          4 |        110 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\Culling.cs                   | C#       |         21 |          0 |          5 |         26 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\GreaterConstitution.cs       | C#       |         22 |          0 |          6 |         28 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\GrowingRage.cs               | C#       |         32 |          1 |          6 |         39 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\GrowingResolve.cs            | C#       |         32 |          1 |          6 |         39 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\Initiative.cs                | C#       |         21 |          0 |          5 |         26 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\PridefulDestruction.cs       | C#       |         38 |          0 |          6 |         44 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\Trinket.cs                   | C#       |         65 |          0 |         16 |         81 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\Trinkets\TrinketInventory.cs          | C#       |         50 |          0 |          7 |         57 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\BattleCanvas.cs                    | C#       |         19 |          0 |          3 |         22 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\BattleUIManager.cs                 | C#       |        713 |         28 |        105 |        846 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\DragDrop.cs                        | C#       |         85 |          1 |         19 |        105 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\GearTooltip.cs                     | C#       |        156 |         13 |         31 |        200 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\ItemSlot.cs                        | C#       |        107 |          4 |         21 |        132 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\Items.cs                           | C#       |        158 |          1 |         25 |        184 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\MainMenuUIManager.cs               | C#       |         34 |          0 |          4 |         38 |
+| d:\GSU Classes\Summer 24\Nine Circle Blessing\Assets\Scripts\UI\Shop.cs                            | C#       |        260 |          7 |         40 |        307 |
+| Total                                                                                              |          |      5,049 |        115 |        827 |      5,991 |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

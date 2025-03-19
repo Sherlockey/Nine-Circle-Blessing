@@ -1,0 +1,737 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1056235183236048219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3837221314682627112}
+  - component: {fileID: 4787157745084985444}
+  - component: {fileID: 1298438847298479894}
+  - component: {fileID: 7775492313030586200}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3837221314682627112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056235183236048219}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.67, y: 1.09, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5679029714652892692}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4787157745084985444
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056235183236048219}
+  m_Mesh: {fileID: 4869378890834394201, guid: 54e4e3c56114ce146827ac5f041fc0e8, type: 3}
+--- !u!23 &1298438847298479894
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056235183236048219}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 71bfbe9dc174f75428055e209b67482b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7775492313030586200
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056235183236048219}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4869378890834394201, guid: 54e4e3c56114ce146827ac5f041fc0e8, type: 3}
+--- !u!1 &2660823642587417037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5679029714652892692}
+  - component: {fileID: 1187797255938561056}
+  - component: {fileID: 6787829347868208128}
+  - component: {fileID: 8826514529287412858}
+  - component: {fileID: 2774129826166695140}
+  - component: {fileID: 8342489466660389675}
+  - component: {fileID: 6704554553146118401}
+  - component: {fileID: 7036536252212486936}
+  - component: {fileID: 8747442279833552438}
+  - component: {fileID: 7394811887559717496}
+  - component: {fileID: 8656944883615820516}
+  - component: {fileID: -1108676577898482473}
+  - component: {fileID: 4676477461199399360}
+  - component: {fileID: 7787264661516801487}
+  - component: {fileID: 3820673382166741928}
+  - component: {fileID: 8288338844370143864}
+  - component: {fileID: 1446227644389961252}
+  - component: {fileID: 833792554137270834}
+  - component: {fileID: 1192870434738855086}
+  - component: {fileID: 8598515176986089302}
+  - component: {fileID: 9052952582969508938}
+  - component: {fileID: 5984932309874503025}
+  - component: {fileID: 2985644542343458967}
+  - component: {fileID: 4283550821311694457}
+  - component: {fileID: 872811129502244674}
+  - component: {fileID: 8525847474659595598}
+  - component: {fileID: 3387003392406962686}
+  - component: {fileID: 6582171030547366360}
+  - component: {fileID: 7615522197185047007}
+  - component: {fileID: 5341208299287623323}
+  - component: {fileID: 3161137336814425406}
+  - component: {fileID: 3373054850448101485}
+  - component: {fileID: 2416474645305813643}
+  - component: {fileID: -1910976482334369853}
+  m_Layer: 6
+  m_Name: Velfirith
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5679029714652892692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 3837221314682627112}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1187797255938561056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3817f18fe53c8b3499fe375a3f930921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageDealtScalar: 1
+  DamageTakenScalar: 1
+  _baseHealth: 50
+  _baseMana: 50
+  _baseDamage: 10
+  _baseSpeed: 50
+  _defaultCooldownMax: 10
+  _baseCooldownReduction: 0
+  _baseArmor: 0
+  _baseEvasion: 0
+  _baseLeech: 0
+  _baseArea: 0
+  _baseLevel: 1
+  MaxHealthScalar: 1
+  MaxManaScalar: 1
+  DamageScalar: 1
+  SpeedScalar: 1
+  CooldownMaxScalar: 1
+  ArmorScalar: 1
+  EvasionScalar: 1
+  LeechScalar: 1
+  AreaScalar: 1
+  _gearInventory: {fileID: 8826514529287412858}
+  _baseExperienceToLevel: 20
+  _baseExperience: 0
+--- !u!114 &6787829347868208128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d918ddd81f0286244bd51c21e934f2e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8826514529287412858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977bf214430e4e3479dc5d04315b1917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2774129826166695140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fa033007b30c74ebfec646c5c0a018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8342489466660389675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaaffd75520efd409dade16274e5b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6704554553146118401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f38f3a566ab77341bedf9bd2330243e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _abilityUpgradeSOList:
+  - {fileID: 11400000, guid: 3c73fd5d73e48184db1b670154921155, type: 2}
+  - {fileID: 11400000, guid: 6bd6701a4fdedfb48b559d7034bb9015, type: 2}
+  - {fileID: 11400000, guid: 5333704e64885f04ca373ce4b4d072ea, type: 2}
+  - {fileID: 11400000, guid: f2cd9a2ee82311c48869aee0b2054846, type: 2}
+  - {fileID: 11400000, guid: 99cd88fd7f1bbdb449bbda37a1b7961f, type: 2}
+  - {fileID: 11400000, guid: bf9d2b5ed5c8e0d4f802f2d2417ee7ab, type: 2}
+  - {fileID: 11400000, guid: 35e57b6723e2abd4b995a573e4137868, type: 2}
+  - {fileID: 11400000, guid: ba10b3a00ccd19242919dc3a00a76b96, type: 2}
+  - {fileID: 11400000, guid: 73b13a2a77573fc499a16a36d375303e, type: 2}
+  - {fileID: 11400000, guid: 7f1c2595ca7e9024290a459d0818a147, type: 2}
+  - {fileID: 11400000, guid: 99f9b8eea376c0c44a5efe66bd2f9683, type: 2}
+  - {fileID: 11400000, guid: 95dd8e0827f696a4bada3c16a0147bc1, type: 2}
+--- !u!114 &7036536252212486936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6926b337afaf83c4b9c151328178de63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _abilityUpgrade: {fileID: 6704554553146118401}
+--- !u!114 &8747442279833552438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4f9bf4f807fee4593cb4c3c62294fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _abilityUpgrade: {fileID: 6704554553146118401}
+  _baseManaCost: 25
+--- !u!114 &7394811887559717496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74092924574409c40994abf5d52a6e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _abilityUpgrade: {fileID: 6704554553146118401}
+--- !u!114 &8656944883615820516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd5becba238b6a438a6bf3893052beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1108676577898482473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e1932b88b917c479d83a2356ab270c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4676477461199399360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6814ba4846baf0a4a9694d791dd62308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactArray:
+  - {fileID: 7787264661516801487}
+  - {fileID: 3820673382166741928}
+  - {fileID: 8288338844370143864}
+  - {fileID: 1446227644389961252}
+  - {fileID: 833792554137270834}
+  - {fileID: 1192870434738855086}
+  - {fileID: 8598515176986089302}
+  - {fileID: 9052952582969508938}
+  - {fileID: 5984932309874503025}
+  - {fileID: 2985644542343458967}
+  - {fileID: 4283550821311694457}
+--- !u!114 &7787264661516801487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3626963f35ea3409649cd752b83c0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Iron Reflexes
+  _description: Armor increased by 50%. You cannot evade hits
+  _isEnabled: 0
+--- !u!114 &3820673382166741928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f213bc20d64fa4abcf0413a2ad7486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Wind Dancer
+  _description: Evasion increased by 50%. Armor does not reduce damage taken
+  _isEnabled: 0
+--- !u!114 &8288338844370143864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a109ece946f034bbd1407e2db2f46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Instability
+  _description: Start each encounter by dealing 30% damage to all enemies. This damage
+    cannot kill
+  _isEnabled: 0
+--- !u!114 &1446227644389961252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd4b5c7dd3a8fd43ba7383a0a7fdabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Conservation
+  _description: Deal increased damage equal to your remaining mana % (max of 50%
+    increase at full mana)
+  _isEnabled: 0
+--- !u!114 &833792554137270834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7702bcdc50a0e45488654679574b5c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Agent Of Chaos
+  _description: Mana doubled. Cooldowns doubled
+  _isEnabled: 0
+--- !u!114 &1192870434738855086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbc4cf006f11f348930998bbceb1c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Tormentor
+  _description: Cooldowns halved. Mana halved
+  _isEnabled: 0
+--- !u!114 &8598515176986089302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1284eaab3c9be6e4f9d94bcb3d74249b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Strengthened
+  _description: Increases damage dealt by 15%
+  _isEnabled: 0
+--- !u!114 &9052952582969508938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2585837ca7d4904399883cdf370ed83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Blessed
+  _description: Increases health regeneration by an additional 1%
+  _isEnabled: 0
+--- !u!114 &5984932309874503025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca5ca3a923662243880c74f1c18ec8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Shielded
+  _description: Hits against you deal 20% reduced damage
+  _isEnabled: 0
+--- !u!114 &2985644542343458967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5358af3fab39934a8f4e7093aeb8fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Hasted
+  _description: Increases speed by 10%
+  _isEnabled: 0
+--- !u!114 &4283550821311694457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d1d406c3ffccc46a04473554cb1622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pactName: Covered
+  _description: Armor and Evasion increased by 15% each
+  _isEnabled: 0
+--- !u!114 &872811129502244674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7733459e1dc45c46bf41c5b3b523d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketArray:
+  - {fileID: 8525847474659595598}
+  - {fileID: 3387003392406962686}
+  - {fileID: 6582171030547366360}
+  - {fileID: 7615522197185047007}
+  - {fileID: 5341208299287623323}
+  - {fileID: 3161137336814425406}
+--- !u!114 &8525847474659595598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2a44d8cb1c2e64cb39b8c6aa78008d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Growing Rage
+  _description: At the start of each circle, gain 1% more damage
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!114 &3387003392406962686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7169ae4c2dfd1349a3ed0065af3c95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Growing Resolve
+  _description: At the start of each circle, gain 1% more damage reduction
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!114 &6582171030547366360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3a5065e84c5ce4cb46929a53fe6484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Prideful Destruction
+  _description: After killing an enemy, heal for 2% of your max health
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!114 &7615522197185047007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4ad9ef1868859b41b5f9a160f20b1cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Greater Constitution
+  _description: Gain 10% more max health
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!114 &5341208299287623323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9fdb643d0b91e46ae617a16e6ae4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Culling
+  _description: Deal 40% increased damage to damaged enemies
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!114 &3161137336814425406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da946ada27cddb4286dab58606c9266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trinketSuffix: Initiative
+  _description: Deal 40% increased damage to undamaged enemies
+  _isEnabled: 0
+  _isOwned: 0
+  _cost: 500
+  _sprite: {fileID: 21300000, guid: 62e7c2287b30ace43868d7db911324db, type: 3}
+--- !u!33 &3373054850448101485
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Mesh: {fileID: 3937581866402632332, guid: b255cbb88defaeb4ab1f6c4655704448, type: 3}
+--- !u!23 &2416474645305813643
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2b49e327d28b11549adffa11c72de215, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-1910976482334369853
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660823642587417037}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3937581866402632332, guid: b255cbb88defaeb4ab1f6c4655704448, type: 3}
